@@ -2,3 +2,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+    .h-278 {
+      height: 278px;
+    }
+  }
+  
+body {
+    background-color: #fff;
+}
+
+.vyphoto {
+  height:600px;
+  width: 850px;
+}

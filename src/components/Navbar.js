@@ -4,21 +4,22 @@ import {SocialIcon } from "react-social-icons";
 
 export default function NavBar () {
     return (
-        <header className="z-50 font-display sticky top-0 bg-light-beige">
+        <header className="z-50 font-display sticky top-0 bg-white">
             <div className="contianer mx-auto flex justify-between">
                 <nav className="flex">
                     <NavLink to= "/" 
                             exact className="font-bold"
-                            className="iflex-flex items-center py-2 px-3 ml-4 mr-4 my-6 text-gray-700 hover:text-yellow-700 text-2xl font-bold tracking-widest"> Hans Aasland
+                            className="transition delay-100 duration-300 ease-in-out ... iflex-flex items-center py-2 px-3 ml-4 mr-4 my-6 text-gray-700 hover:text-yellow-700 lg:text-3xl md:text-2xl font-bold tracking-widest"> Hans Aasland
                     </NavLink>
+                    
                     <NavLink to="/about"
-                    className="inline-flex items-center py-3 px-3 my-3 rounded text-gray-600 hover:text-yellow-700"> About
+                    className="transition delay-100 duration-300 ease-in-out ... inline-flex items-center py-3 px-3 my-3 rounded text-gray-600 hover:text-yellow-700 font-semibold"> About
                     </NavLink>                    
                     <NavLink to= "/uxprojects"
-                    className="inline-flex items-center py-3 px-3 my-3 rounded text-gray-600 hover:text-yellow-700"> UX Projects
+                    className="transition delay-100 duration-300 ease-in-out ... inline-flex items-center py-3 px-3 my-3 rounded text-gray-600 hover:text-yellow-700 font-semibold"> UX Projects
                     </NavLink>
                     <NavLink to="/webprojects"
-                    className="inline-flex items-center py-3 px-3 my-3 rounded text-gray-600 hover:text-yellow-700"> Web Projects
+                    className="transition delay-100 duration-300 ease-in-out ... inline-flex items-center py-3 px-3 my-3 rounded text-gray-600 hover:text-yellow-700 font-semibold"> Web Projects
                     
                     </NavLink>
 
@@ -29,6 +30,7 @@ export default function NavBar () {
                     <SocialIcon url="https://github.com/hmaa94" className="mr-4" target="_blank" fgColor="#fff" bgColor="#685044" style={{ height: 35, width: 35}}/>
                 </div>
             </div>
+            
         </header>
     )
 }
