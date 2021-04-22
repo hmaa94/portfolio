@@ -9,17 +9,17 @@ export default function NavBar () {
                 <nav className="flex">
                     <NavLink to= "/" 
                             exact className="font-bold"
-                            className="transition delay-100 duration-300 ease-in-out ... iflex-flex items-center py-2 px-3 ml-4 mr-4 my-6 text-gray-700 hover:text-yellow-700 lg:text-3xl md:text-2xl font-bold tracking-widest"> Hans Aasland
+                            className="transition delay-100 duration-300 ease-in-out ... iflex-flex items-center py-2 px-3 ml-4 mr-4 my-6 text-gray-800 hover:text-gray-400 lg:text-3xl md:text-2xl font-bold tracking-widest"> Hans Aasland
                     </NavLink>
                     
                     <NavLink to="/about"
-                    className="transition delay-100 duration-300 ease-in-out ... inline-flex items-center py-3 px-3 my-3 rounded text-gray-600 hover:text-yellow-700 font-semibold"> About
+                    className="transition delay-100 duration-300 ease-in-out ... inline-flex items-center py-3 px-3 my-3 rounded text-gray-800 hover:text-gray-400 font-semibold"> About
                     </NavLink>                    
                     <NavLink to= "/uxprojects"
-                    className="transition delay-100 duration-300 ease-in-out ... inline-flex items-center py-3 px-3 my-3 rounded text-gray-600 hover:text-yellow-700 font-semibold"> UX Projects
+                    className="transition delay-100 duration-300 ease-in-out ... inline-flex items-center py-3 px-3 my-3 rounded text-gray-800 hover:text-gray-400 font-semibold"> UX Projects
                     </NavLink>
                     <NavLink to="/webprojects"
-                    className="transition delay-100 duration-300 ease-in-out ... inline-flex items-center py-3 px-3 my-3 rounded text-gray-600 hover:text-yellow-700 font-semibold"> Web Projects
+                    className="transition delay-100 duration-300 ease-in-out ... inline-flex items-center py-3 px-3 my-3 rounded text-gray-800 hover:text-gray-400 font-semibold"> Web Projects
                     
                     </NavLink>
 

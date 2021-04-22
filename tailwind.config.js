@@ -13,7 +13,8 @@ module.exports = {
    },
    fontFamily: {
      body: ['Raleway'],
-     display: ['Lato']
+     display: ['Lato'],
+     montserrat: ['Montserrat']
    }
 
     },
