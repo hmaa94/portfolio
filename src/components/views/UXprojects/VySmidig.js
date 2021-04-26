@@ -3,6 +3,10 @@ import image1 from "../../../assets/img/VYgreie.png"
 import image2 from "../../../assets/img/vy1.png"
 import image3 from "../../../assets/img/vy2.png"
 import image4 from "../../../assets/img/vy3.png"
+import image5 from "../../../assets/img/vysurvey1.png"
+import image6 from "../../../assets/img/vysurvey2.png"
+import image7 from "../../../assets/img/onboarding.png"
+
 
 export default function VySmidig() {
     return  (
@@ -26,7 +30,7 @@ export default function VySmidig() {
     <h2 className="font-body text-black my-8 lg:my-40 font-bold text-3xl lg:text-4xl relative flex justify-center">Prosjektdetaljer
         </h2>
         </div>
-      <div className="relative flex justify-center grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 mb-10 mx-auto w-6/12">
+      <div className="relative flex justify-center grid grid-cols-3 mb-10 mx-auto w-11/12 lg:w-7/12">
           <div className="mx-auto">
           <p className="font-bold font-body md:text-black text-1xl relative flex">Verktøy og teknikker</p>
           <p className="font-light font-montserrat md:text-1xl relative flex mb-1">Figma</p>
@@ -81,8 +85,8 @@ export default function VySmidig() {
             <div className=" my-2 mx-auto">
                   <img src={image4} alt="Vyprosjekt del 1" className=" h-64 w-80 object-cover"/>
             </div>
-
         </div>
+
         <h2 className="font-body text-black mb-5 font-bold text-2xl lg:text-2xl relative flex justify-center subpixel-antialiased">Brukertesting</h2>
             <div className="lg:leading-8 font-montserrat text-black mb-8 text-base lg:text-xl relative flex justify-center mx-5 lg:mx-auto md:px-8 lg:px-36 text-lg lg:w-7/12">
             <p className="relative flex justify-center font-montserrat mb-10">Til brukertesting gjennomførte testingen i form av intervjuer. Det ble innhentet fem testdeltakere for å avdekke de mest kritiske feilene. Det ble ikke tatt opptak, men testdeltakere
@@ -98,54 +102,114 @@ export default function VySmidig() {
             <h2 className="font-body text-black mb-5 font-bold text-xl lg:text-2xl relative flex justify-center subpixel-antialiased">1.Sprint</h2>
         <div className=" lg:leading-8 font-montserrat text-black mb-8 text-base lg:text-xl relative flex justify-center mx-5 lg:mx-auto md:px-8 lg:px-36 text-lg lg:w-7/12">
         <p className="relative flex justify-center font-montserrat mb-10">
-        Vi brukte denne sprinten til å jobbe effektivt og endte opp med fire forskjellige prototyper i løpet av sprinten: en for billettoversikt på web, en for billettoversikt på mobil, en for rutesøk på web og en for rutesøk på mobil. Vi gjennomførte også en spørreundersøkelse for å kartlegge ønsker, mangler og behov i reisesettinger for å ha data å gå ut ifra når vi skal ta beslutninger.</p>
+        Grunnsteinene var på plass, men vi var nysgjerrig på hva folk ønsket i en dør-til-dør-løsning. Vy har ei bred målgruppe,
+        så vi utarbeidet en spørreundersøkelse for alle som benytter seg av dem. Slik kartla vi mangler, 
+        ønsker og behov i reisesituasjoner. Noen interessepunkter var hva slags informasjon som burde være synlig under reisen og forventninger
+         knyttet til å kunne endre billetter på reiser med flere ledd. Det ble også hensiktsmessig å vite om folk brydde seg om at billetter 
+         kan samles i samme app der man avhenger av flere aktører, slik som over landegrenser. Vi delte undersøkelsen bredt, 
+         blant annet i en gruppe for reiseinteresserte på Facebook. 
+       </p>
         </div>
-        <div className=" lg:leading-8 font-montserrat text-black mb-8 text-base lg:text-xl relative flex justify-center mx-5 lg:mx-auto md:px-8 lg:px-36 text-lg lg:w-7/12">
-        <p className="relative flex justify-center font-montserrat mb-10">
-På Sprint Reviewen i denne sprinten fikk vi gode råd til hva vi burde gjøre videre. Vi fikk beskjed om å scope ned og fokusere på en spesifikk ting for å ikke gjøre det unødvendig vanskelig for oss selv. Det gjorde at vi valgte å fokusere på prototypene for mobil på veien videre og slå de to prototypene sammen til én.
-            </p>
+
+        <div className="relative flex justify-center grid grid-cols-1 lg:grid-cols-2 mx-auto mb-10 lg:w-9/12">
+        <div className="my-2 mx-auto ">
+                  <img src={image5} alt="Vyprosjekt del 1" className=" h-80 object-contain rounded shadow"/>
             </div>
-        <h2 className="font-body text-black mb-8 mt-8 lg:mt-10 ml-14 lg:ml-0 font-bold text-2xl relative flex justify-center">2.Sprint</h2>
+            <div className=" my-2 mx-auto">
+                  <img src={image6} alt="Vyprosjekt del 1" className=" h-80 object-contain rounded shadow"/>
+            </div>   
+        </div>
+
         <div className=" lg:leading-8 font-montserrat text-black mb-8 text-base lg:text-xl relative flex justify-center mx-5 lg:mx-auto md:px-8 lg:px-36 text-lg lg:w-7/12">
         <p className="relative flex justify-center font-montserrat mb-10">
-        Målet for den andre sprinten var å ferdigstille prototypene av løsningen slik at det kan brukes som utgangspunkt til utvikling ved oppstart til neste sprint. Ettersom vi hadde brukt Figma mye allerede til prototyping brukte vi mindre tid på å lage prototyper denne sprinten. Denne sprinten gjennomførte vi også brukertester for å sjekke om prototypen var brukervennlig og selvforklarende. 
-            </p>
+        Under denne sprinten produserte vi fire prototyper. Det ble henholdsvis for billettoversikt på pc, billettoversikt på mobil, rutesøk på pc og rutesøk på mobil. 
+        På Sprint Reviewen fikk vi råd om å scope ned og heller fokusere på en enhet for å ikke bite over mer enn vi kan tygge. Fokuset videre ble å flette forslagene til ny billettoversikt og rutesøk sammen til en prototype til mobil.</p>
+            </div>
+        <h2 className="font-body text-black mb-5 font-bold text-xl lg:text-2xl relative flex justify-center subpixel-antialiased">2.Sprint</h2>
+        <div className=" lg:leading-8 font-montserrat text-black mb-8 text-base lg:text-xl relative flex justify-center mx-5 lg:mx-auto md:px-8 lg:px-36 text-lg lg:w-7/12">
+        <p className="relative flex justify-center font-montserrat mb-10">
+        Målet for den 2.sprint var å gjøre ferdig prototypene av løsningen, slik at vi hadde et utgangspunkt for utvikling til neste sprint.
+        Ettersom vi alt hadde brukt Figma en del, ble de nye prototypene enklere å lage med eksisterende ressurser.
+        Det ble gjort brukertester for å teste brukervennligheten og brukskvaliteten av de nye prototypene.</p>
             </div>
             <div className=" lg:leading-8 font-montserrat text-black mb-8 text-base lg:text-xl relative flex justify-center mx-5 lg:mx-auto md:px-8 lg:px-36 text-lg lg:w-7/12">
-            <p className="relative flex justify-center font-montserrat mb-10">På Sprint Reviewen fikk vi tips om å velge hva som er viktig av funksjoner og prioriteringer til våren da vi fort vil se hvor mye tid vi har og hva som er realiserbart når vi skal begynne å kode. Vi luftet også at vi noen ganger har problemer med å komme frem til en beslutning og da fikk vi tips av kunde om å teste på brukere hvis det er noe vi er usikre på og for å ha noe konkret til å begrunne avgjørelser. 
-            Ellers så var Sprint Reviewen veldig bekreftende og positiv med tanke på at vi har scopet ned og følte vi var på riktig vei.</p>
+            <p className="relative flex justify-center font-montserrat mb-10">
+            På Sprint Reviewen fikk vi tips om å prioritere de mest essensielle funksjonalitetene og at valgene burde ta i betraktning hva som er realiserbart å kode.
+            Vi spurte om råd til hva vi kan gjøre når vi hadde vansker for å ta beslutninger. Et tips fra kunden var å teste på brukere hvis det er noe vi er usikre på.
+            Slik hadde vi også noe konkret å basere avgjørelser på.
+            Tilbakemelding i Sprint Reviewen var positiv og bekreftet at det omstilte scopet var av god art, og på riktig vei.</p>
             </div>
-            <h2 className="font-body text-black mb-8 mt-8 lg:mt-10 ml-14 lg:ml-0 font-bold text-2xl relative flex justify-center">3.Sprint</h2>
+            <h2 className="font-body text-black mb-5 font-bold text-xl lg:text-2xl relative flex justify-center subpixel-antialiased">3.Sprint</h2>
         <div className=" lg:leading-8 font-montserrat text-black mb-8 text-base lg:text-xl relative flex justify-center mx-5 lg:mx-auto md:px-8 lg:px-36 text-lg lg:w-7/12">
         <p className="relative flex justify-center font-montserrat mb-10">
-        Ved oppstart av tredje sprint var det klart for å fokusere på kodingen. Målet for denne sprinten var å komme i gang med koding, starte på rapportene og få en oversiktlig Product Backlog. Dette målet satt vi for å være sikre på at når første sprint var ferdig så hadde vi et godt utgangspunkt for å komme i mål i løpet av de siste sprintene. På dette punktet kom vi fram til at web-applikasjonen vil bygges opp med React JS.
-            </p>
+        Mål for 3.sprint var å begynne å kodingen, starte på rapportene og å gjøre Product Backlog oversiktlig. Målet var satt til å begynne kodingsprosessen her,
+        for å være sikre på at vi hadde et godt utgangspunkt til å komme i mål i løpet av de siste sprintene.
+        Web-applikasjonen skulle bygges med React.js, da det var dette gruppemedlemmene fra programmering og front-end lærte i semesteret.</p>
             </div>
             <div className=" lg:leading-8 font-montserrat text-black mb-8 text-base lg:text-xl relative flex justify-center mx-5 lg:mx-auto md:px-8 lg:px-36 text-lg lg:w-7/12">
-        <p className="relative flex justify-center font-montserrat mb-10">
-        Det var også ønskelig å få inn en oversikt over hva som vil være nytt i Vy sine tjenester etter at vår løsning skal bli implementert. For å løse dette produserte gruppen en prototype for onboarding i webappen. Det ble også utført en brukertest på denne før implementering. Her fikk vi tilbakemelding på at illustrasjonene vi hadde lagd var gode og funket bra, samtidig som testpersonene oppfattet onboardingen som lettforståelig og informativ ved bruk av en ny løsning.
-            </p>
+        <p className="relative flex justify-center font-montserrat">
+        Det var til nå tenkt ut en del ny funksjonalitet som teoretisk kunne bli implementert ved reformen av Vy's applikasjon. 
+        Derfor produserte vi en prototype for onboarding, med fokus om å introdusere nye funksjoner for eksisterende kunder av Vy. 
+        Denne ble brukertestet før implementering. Av tilbakemeldinger fikk vi høre at illustrasjonene var gode og funket bra.
+        Testpersonene oppfattet onboardingen som lettforståelig og informativ ved bruk av en ny løsning.</p>
             </div>
+
+        <div className="my-2 mx-auto">
+                  <img src={image7} alt="image onboarding" className="relative flex justify-center mx-auto my-12 lg:w-5/12 rounded shadow"/>
+            </div>
+
             <div className=" lg:leading-8 font-montserrat text-black mb-8 text-base lg:text-xl relative flex justify-center mx-5 lg:mx-auto md:px-8 lg:px-36 text-lg lg:w-7/12">
         <p className="relative flex justify-center font-montserrat mb-10">
         Vi begynte også arbeidet med en kampanjeplan for den ferdige løsningen i denne sprinten, med tanke på veien videre etter prosjektet. Til den lagde vi også eksempler på bannere og reklameplakater som skal brukes i kampanjen. Vi hadde også møter med veileder og to møter med Vy i løpet av denne sprinten. Her fikk vi tilbakemeldinger på kampanjeplanen for å gjøre den så god som mulig og fikk høre at vi var på riktig spor med tanke på kodingen.            </p>
             </div>
-            <h2 className="font-body text-black mb-8 mt-8 lg:mt-10 ml-14 lg:ml-0 font-bold text-2xl relative flex justify-center">4.Sprint</h2>
+            <h2 className="font-body text-black mb-5 font-bold text-xl lg:text-2xl relative flex justify-center subpixel-antialiased">4.Sprint</h2>
             <div className=" lg:leading-8 font-montserrat text-black mb-8 text-base lg:text-xl relative flex justify-center mx-5 lg:mx-auto md:px-8 lg:px-36 text-lg lg:w-7/12">
         <p className="relative flex justify-center font-montserrat mb-10">
-        Målet for denne sprinten var å fullføre koden rundt rutesøket. Det innebar å kode opp filtrering av rutesøk og å få det tegnet opp slik at det ble vist grafisk. Det ble også stylet med CSS. Til sist måtte det ordnes kode som skal lagre rutesøket til billetter. Dette målet nådde vi ikke da det var litt dårlig kommunikasjon i gruppen og misforståelser når det kom til koding av rutesøk. Selv om vi ikke nådde målet denne sprinten fikk vi allikevel gjort mye. Vi var nødt til å ta med oss det å tegne opp rutesøk inn i neste sprint for å være klare til leveransetest 05.06.2020. Å fullføre kampanjeplanen var også en prioritering, samt å få gjennomført en brukertest på hvordan reisende ønsker å velge ut en alternativ avgang om det skulle oppstå avvik under reisen. Møtet (Sprint Review) med Vy ble holdt fredag 29/5 som ble etterfulgt av et veiledermøte.
-         </p>
+        Målet for 4.sprint var å fullføre koden rundt rutesøket. Det betydde å kode ferdig filtrering av rutesøk og å få det tegnet opp grafisk utforming. 
+        Det ble stylet med CSS. Til sist måtte det kodes lagring av rutesøket til billetter. Dette målet ble ikke nådd. 
+        Det var feilkommunikasjon i gruppen og misforståelser når det gjaldt koding av rutesøket. 
+        Derfor ble vi nødt til å ta med opptegning av rutesøk inn i neste sprint for å ha den klar til leveransetesten 05.06.2020.</p>
             </div>
-            <h2 className="font-body text-black mb-8 mt-8 lg:mt-10 ml-14 lg:ml-0 font-bold text-2xl relative flex justify-center">5.Sprint</h2>
             <div className=" lg:leading-8 font-montserrat text-black mb-8 text-base lg:text-xl relative flex justify-center mx-5 lg:mx-auto md:px-8 lg:px-36 text-lg lg:w-7/12">
         <p className="relative flex justify-center font-montserrat mb-10">
-        I denne sprinten ønsket vi å bli ferdig med å tegne opp rutesøk og gjøre ferdig «min side» med billetter. Vi nådde ikke målet helt for sprinten, siden vi møtte på noen tekniske problemer. Denne sprinten skulle forberede oss på leveransetesten på slutten av sprinten. Det meste av oppgavene i task board omhandlet koding så dette ble en intens uke for de tre i gruppen som koder, men for resten var det ikke så mye å gjøre. Vi fullførte kampanjeplanen i tillegg til at vi hadde et møte med veileder. Siden vi har kommet ganske godt i gang med rapportene var det ikke så mye å gjøre i disse denne uken og brukertesting var gjennomført forrige sprint. Vi hadde også et veiledermøte under denne sprinten. Fordi vi det var flere oppgaver i task board som ikke var fullført i sprinten som skulle vare fra mandag til fredag valgte vi å utvide sprinten frem til onsdag 10.06.2020. Dette var dagen før levering. En annen grunn til dette var at vi ville fortsette å logge timer og ha en oversikt over oppgaver som var “in progress”, slik at vi kunne forsikre oss om at alt ble tatt tak i og gjort ferdig til innlevering. Dette var første gangen vi gikk bort fra Scrum, men vi mente dette var riktig avgjørelse for oss som gruppe og for resultatet av løsningen vår.         </p>
+        Selv om målet ikke ble nådd, fikk vi likevel gjort mye. Å fullføre kampanjeplanen var også en prioritering, 
+        samt å få gjennomført en brukertest på hvordan reisende ønsker å velge ut en alternativ avgang om det skulle oppstå avvik under reisen. 
+        Møtet (Sprint Review) med Vy ble holdt fredag 29/5 som ble etterfulgt av et veiledermøte.</p>
             </div>
-            <h2 className="font-body text-black mb-8 mt-8 lg:mt-10 ml-14 lg:ml-0 font-bold text-2xl relative flex justify-center">Konklusjon og resultat</h2>
+            <h2 className="font-body text-black mb-5 font-bold text-xl lg:text-2xl relative flex justify-center subpixel-antialiased">5.Sprint</h2>
             <div className=" lg:leading-8 font-montserrat text-black mb-8 text-base lg:text-xl relative flex justify-center mx-5 lg:mx-auto md:px-8 lg:px-36 text-lg lg:w-7/12">
         <p className="relative flex justify-center font-montserrat mb-10">
-        Å jobbe smidig har gitt meg nyttig erfaring i hvordan teknologibransjen jobber, og jeg har hatt et veldig fint prosjekt hvor jeg har fått utviklet mine ferdigheter i teamwork, koding, prototyping og brukertesting. Jeg har fått jobbet i tverrfaglig team hvor alle har brukt sine styrker for å levere det beste resultatet. Vi fikk og erfaring om hvordan en kan overgå uforventede tekniske problemer. Dette prosjekte resulterte i karakteren B.
-        </p> </div>
+        I denne sprinten ønsket vi å bli ferdig med å tegne opp rutesøk og gjøre ferdig «min side» med billetter.
+        Vi nådde ikke målet helt for sprinten, siden vi møtte på noen tekniske problemer. Denne sprinten skulle forberede oss på leveransetesten på slutten av sprinten.
+        Det meste av oppgavene i task board omhandlet koding så dette ble en intens uke for de tre i gruppen som koder, men for resten var det ikke så mye å gjøre.
+        Vi fullførte kampanjeplanen i tillegg til at vi hadde et møte med veileder. Siden vi har kommet ganske godt i gang med rapportene var det ikke så mye å gjøre i disse denne uken
+        og brukertesting var gjennomført forrige sprint. Vi hadde også et veiledermøte under denne sprinten.
+        </p>
+         </div>
+         <div className=" lg:leading-8 font-montserrat text-black mb-8 text-base lg:text-xl relative flex justify-center mx-5 lg:mx-auto md:px-8 lg:px-36 text-lg lg:w-7/12">
+
+            <p className="relative flex justify-center font-montserrat mb-10">
+            Fordi vi det var flere oppgaver i task board som ikke var fullført i sprinten som skulle vare fra mandag til fredag valgte vi å utvide sprinten frem til onsdag 10.06.2020.
+            Dette var dagen før levering. En annen grunn til dette var at vi ville fortsette å logge timer og ha en oversikt over oppgaver som var “in progress”,
+            slik at vi kunne forsikre oss om at alt ble tatt tak i og gjort ferdig til innlevering.
+            Dette var første gangen vi gikk bort fra Scrum, men vi mente dette var riktig avgjørelse for oss som gruppe og for resultatet av løsningen vår.
+        </p>
+        </div>
+            <h2 className="font-body text-black mb-5 font-bold text-xl lg:text-2xl relative flex justify-center subpixel-antialiased">Konklusjon og resultat</h2>
+            <div className=" lg:leading-8 font-montserrat text-black mb-8 text-base lg:text-xl relative flex justify-center mx-5 lg:mx-auto md:px-8 lg:px-36 text-lg lg:w-7/12">
+        <p className="relative flex justify-center font-montserrat mb-10">
+        Å jobbe med smidig utviklingsmetodikk har vært veldig gøy! Det var nyttig å få oppleve hvordan man jobber ute i tech-industrien. 
+        Prosjektet har styrket min kapasitet først og fremst innen samarbeid, og det var interessant å se på React.js i bruk og hvilke problemer som kan oppstå.
+        </p>
+        </div>
+        <div className=" lg:leading-8 font-montserrat text-black mb-8 text-base lg:text-xl relative flex justify-center mx-5 lg:mx-auto md:px-8 lg:px-36 text-lg lg:w-7/12">
+        <p className="relative flex justify-center font-montserrat mb-10">
+        Jeg har også fått videre styrket ferdighetene mine innen brukerundersøkelser, prototyping og ikke minst brukertesting og intervju.
+        På grunn av pandemien måtte vi begynne å brukerteste remote, men det har gjort at jeg har blitt mer komfortabel med både å teste personer fysisk og over videosamtaler.
+        Det har vært gøy å få se alles ulike styrker, både i samme og ulike studieretninger, og vi fikk erfart hvordan vi kunne tilpasse oss etter å treffe på tekniske vansker.
+        For prosjektet fikk vi B i karakter.
+        </p>
+        </div>
 
 
     </div>
