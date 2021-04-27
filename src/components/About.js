@@ -1,8 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
-import image1 from "../assets/img/id3artikkel.png";
-import image2 from "../assets/img/Cherish.png"
-import image3 from "../assets/img/VYgreie.png"
+
 
 export default function UxProjects() {
     return (
