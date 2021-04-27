@@ -204,7 +204,7 @@ export default function VySmidig() {
         </div>
         <div className=" lg:leading-8 font-montserrat text-black mb-8 text-base lg:text-xl relative flex justify-center mx-5 lg:mx-auto md:px-8 lg:px-36 text-lg lg:w-7/12">
         <p className="relative flex justify-center font-montserrat mb-10">
-        Jeg har også fått videre styrket ferdighetene mine innen brukerundersøkelser, prototyping og ikke minst brukertesting og intervju.
+        Videre har jeg fått styrket ferdighetene mine innen brukerundersøkelser, prototyping og ikke minst brukertesting og intervju.
         På grunn av pandemien måtte vi begynne å brukerteste remote, men det har gjort at jeg har blitt mer komfortabel med både å teste personer fysisk og over videosamtaler.
         Det har vært gøy å få se alles ulike styrker, både i samme og ulike studieretninger, og vi fikk erfart hvordan vi kunne tilpasse oss etter å treffe på tekniske vansker.
         For prosjektet fikk vi B i karakter.
