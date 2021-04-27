@@ -155,7 +155,7 @@ export default function VySmidig() {
             </div>
 
         <div className="my-2 mx-auto">
-                  <img src={image7} alt="image onboarding" className="relative flex justify-center mx-auto my-12 lg:w-5/12 rounded shadow"/>
+                  <img src={image7} alt="onboarding" className="relative flex justify-center mx-auto my-12 lg:w-5/12 rounded shadow"/>
             </div>
 
             <div className=" lg:leading-8 font-montserrat text-black mb-8 text-base lg:text-xl relative flex justify-center mx-5 lg:mx-auto md:px-8 lg:px-36 text-lg lg:w-7/12">
