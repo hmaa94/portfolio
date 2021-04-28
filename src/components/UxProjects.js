@@ -22,7 +22,7 @@ export default function UxProjects() {
                         </div>
                             <div className="p-5">
                                 <h3 className="text-gray-900 font-bold text-lg">VY</h3>
-                                <p className="text-gray-900 lg:w-60">Agil utvikling, User Research, prototyping, brukertesting, brukersentrert design</p>
+                                <p className="text-gray-900 lg:w-60">Agil utvikling • User Research • prototyping • brukertesting • brukersentrert design</p>
                             </div>
                     </div>
             {/*end of card 1*/}
@@ -39,7 +39,7 @@ export default function UxProjects() {
                         </div>
                             <div className="p-5">
                                 <h3 className="text-gray-900 font-bold text-lg">Magasinet Psykisk Helse</h3>
-                                <p className="text-gray-900">UX, prototyping, brukertesting</p>
+                                <p className="text-gray-900">UX • prototyping • brukertesting</p>
                             </div>
                     </div>
             {/*end of card 2*/}
@@ -56,7 +56,7 @@ export default function UxProjects() {
                         </div>
                             <div className="p-5">
                                 <h3 className="text-gray-900 font-bold text-lg">Cherish</h3>
-                                <p className="text-gray-900">UX, prototyping, brukertesting</p>
+                                <p className="text-gray-900">UX • prototyping • brukertesting</p>
                             </div>
                     </div>
                     {/*end of card 3*/}
